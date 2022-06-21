@@ -1,0 +1,19 @@
+[2022-06-21 09:42:27] n_gpu : 2
+[2022-06-21 09:42:27] dist_url : tcp://127.0.0.1:49152
+[2022-06-21 09:42:27] amp : O1
+[2022-06-21 09:42:27] data_path : /root/autodl-tmp/data/imagenet
+[2022-06-21 09:42:27] seed : 0
+[2022-06-21 09:42:27] lr : 0.1
+[2022-06-21 09:42:27] batch_size : 256
+[2022-06-21 09:42:27] test_batch_size : 512
+[2022-06-21 09:42:27] epochs : 90
+[2022-06-21 09:42:27] save : result/imagenet/resnet50
+[2022-06-21 09:42:27] name : imagenet_resnet50_pruned_finetune
+[2022-06-21 09:42:27] width_mult : 1.0
+[2022-06-21 09:42:27] sync_bn : False
+[2022-06-21 09:42:27] pretrained : pretrained/imagenet_resnet50_best.pth.tar
+[2022-06-21 09:42:27] finetune : True
+[2022-06-21 09:42:27] original : False
+[2022-06-21 09:42:27] distributed : True
+[2022-06-21 09:42:36] finetune the pruned network
+[2022-06-21 09:42:36] pruned architecture: [ 32  24  24  64  48  64  64 224 128 128 128 128 192 512 512 512]

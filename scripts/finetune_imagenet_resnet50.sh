@@ -1,0 +1,12 @@
+python prune_imagenet/train_imagenet_resnet.py \
+--n_gpu=2 \
+--data_path=/root/autodl-tmp/data/imagenet \
+--lr=0.1 \
+--batch_size=256 \
+--test_batch_size=512 \
+--epochs=90 \
+--save=result/imagenet/resnet50 \
+--name=imagenet_resnet50_pruned_finetune \
+--pretrained=pretrained/imagenet_resnet50_best.pth.tar \
+--finetune=True \
+--original=False

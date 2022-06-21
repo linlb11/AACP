@@ -1,0 +1,21 @@
+[2022-06-21 09:41:33] n_gpu : 2
+[2022-06-21 09:41:33] dist_url : tcp://127.0.0.1:49152
+[2022-06-21 09:41:33] amp : O1
+[2022-06-21 09:41:33] data_path : /root/autodl-tmp/data/imagenet
+[2022-06-21 09:41:33] seed : 0
+[2022-06-21 09:41:33] lr : 0.05
+[2022-06-21 09:41:33] batch_size : 256
+[2022-06-21 09:41:33] test_batch_size : 512
+[2022-06-21 09:41:33] warmup : 5
+[2022-06-21 09:41:33] epochs : 160
+[2022-06-21 09:41:33] save : result/imagenet/mobilenetv2
+[2022-06-21 09:41:33] name : imagenet_mobilenetv2_pruned_finetune
+[2022-06-21 09:41:33] width_mult : 1.0
+[2022-06-21 09:41:33] sync_bn : False
+[2022-06-21 09:41:33] pretrained : pretrained/imagenet_mobilenetv2-1.0_best.pth.tar
+[2022-06-21 09:41:33] finetune : True
+[2022-06-21 09:41:33] original : False
+[2022-06-21 09:41:33] distributed : True
+[2022-06-21 09:41:33] training mobilenetv2-1.0
+[2022-06-21 09:41:42] finetune, value: [ 24  84  90 126  96  48 192 144  96  48 384 504 144 576 720 720 720  16
+  24  32  64  96 160 320]

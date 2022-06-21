@@ -1,0 +1,23 @@
+n_gpu : 2
+dist_url : tcp://127.0.0.1:49152
+amp : O1
+data_path : /root/autodl-tmp/data/imagenet
+seed : 0
+lr : 0.1
+batch_size : 256
+test_batch_size : 512
+epochs : 90
+save : result/imagenet/resnet50
+name : imagenet_resnet
+width_mult : 1.0
+sync_bn : False
+pretrained : 
+finetune : False
+original : True
+distributed : True
+train an unpruned network
+ori acc of best pruning result: (tensor([0.0010], device='cuda:0'), tensor([0.0050], device='cuda:0'))
+my acc of best pruning result" (tensor([0.0009], device='cuda:0'), tensor([0.0050], device='cuda:0'))
+epoch: 0, lr: 0.1
+Train Epoch: 0 [0/1281167 (0.0%)]	Loss: 7.055954, 0.46 mins
+Train Epoch: 0 [64000/1281167 (10.0%)]	Loss: 6.784037, 5.53 mins

@@ -1,0 +1,24 @@
+[2022-06-21 10:31:21] n_gpu : 2
+[2022-06-21 10:31:21] dist_url : tcp://127.0.0.1:49152
+[2022-06-21 10:31:21] amp : O1
+[2022-06-21 10:31:21] data_path : /root/autodl-tmp/data/imagenet
+[2022-06-21 10:31:21] seed : 0
+[2022-06-21 10:31:21] lr : 0.05
+[2022-06-21 10:31:21] batch_size : 256
+[2022-06-21 10:31:21] test_batch_size : 512
+[2022-06-21 10:31:21] warmup : 5
+[2022-06-21 10:31:21] epochs : 160
+[2022-06-21 10:31:21] save : result/imagenet/mobilenetv2
+[2022-06-21 10:31:21] name : imagenet_mobilenetv2_unpruned
+[2022-06-21 10:31:21] width_mult : 1.0
+[2022-06-21 10:31:21] sync_bn : False
+[2022-06-21 10:31:21] pretrained : 
+[2022-06-21 10:31:21] finetune : False
+[2022-06-21 10:31:21] original : True
+[2022-06-21 10:31:21] distributed : True
+[2022-06-21 10:31:21] training mobilenetv2-1.0
+[2022-06-21 10:31:30] train an unpruned network
+[2022-06-21 10:37:27] ori acc of best pruning result: (tensor([0.0007], device='cuda:0'), tensor([0.0047], device='cuda:0'))
+[2022-06-21 10:37:27] my acc of best pruning result" (tensor([0.0008], device='cuda:0'), tensor([0.0054], device='cuda:0'))
+[2022-06-21 10:37:27] epoch: 0， lr: 0.04987173308479738
+[2022-06-21 10:37:55] Train Epoch: 0 [0/1281167 (0.0%)]	Loss: 6.922766, 0.46 mins

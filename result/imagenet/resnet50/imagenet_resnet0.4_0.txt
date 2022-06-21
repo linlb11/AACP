@@ -1,0 +1,18 @@
+n_gpu : 2
+dist_url : tcp://127.0.0.1:49152
+amp : O1
+data_path : /root/autodl-tmp/data/imagenet
+seed : 0
+lr : 0.1
+batch_size : 256
+test_batch_size : 512
+epochs : 90
+save : result/imagenet/resnet50
+width_mult : 1.0
+sync_bn : False
+pretrained : 
+finetune : False
+original : True
+distributed : True
+training renset0.4-1.0
+train an unpruned network

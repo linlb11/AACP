@@ -1,0 +1,18 @@
+[2022-06-21 10:39:07] n_gpu : 2
+[2022-06-21 10:39:07] dist_url : tcp://127.0.0.1:49152
+[2022-06-21 10:39:07] amp : O1
+[2022-06-21 10:39:07] data_path : /root/autodl-tmp/data/imagenet
+[2022-06-21 10:39:07] seed : 0
+[2022-06-21 10:39:07] lr : 0.1
+[2022-06-21 10:39:07] batch_size : 256
+[2022-06-21 10:39:07] test_batch_size : 512
+[2022-06-21 10:39:07] epochs : 90
+[2022-06-21 10:39:07] save : result/imagenet/resnet50
+[2022-06-21 10:39:07] name : imagenet_resnet50_unpruned
+[2022-06-21 10:39:07] width_mult : 1.0
+[2022-06-21 10:39:07] sync_bn : False
+[2022-06-21 10:39:07] pretrained : 
+[2022-06-21 10:39:07] finetune : False
+[2022-06-21 10:39:07] original : True
+[2022-06-21 10:39:07] distributed : True
+[2022-06-21 10:39:16] train an unpruned network
