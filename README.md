@@ -9,6 +9,7 @@ The implementation of "AACP: Model Compression by Accurate and Automatic Channel
 3. [Pretrained Models](#pretrained)
 
 <a name="install"/>
+
 ## Installation
 
 Before running the code, installing the packages in requirements.txt. Note that the **apex** is required to be install by compiling the source code to avoid errors occur. You can install apex by:
@@ -19,6 +20,7 @@ cd apex
 pip install -v --no-cache-dir ./
 ```
 <a name="usage"/>
+
 ## Usage
 
 We provide the code of pruning VGG16/Resnet56/Resnet110 on CIFAR10 and Resnet50/Mobilenetv2 on ImageNet (ILSVRC2012). All commands are run in the directory of " your_path/AACP"
@@ -95,6 +97,7 @@ bash scripts/prune_imagenet_resnet50.sh
 bash scripts/finetune_imagenet_resnet50.sh
 ```
 <a name="pretrained"/>
+
 #### Pruning Mobilenetv2 on ImageNet
 
 1. Train an unpruned mobilenetv2 model. Change the configurations and run
